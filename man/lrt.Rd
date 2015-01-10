@@ -26,8 +26,6 @@
 \examples{
 ## LRT tests when SNP1 & SNP6 are the functional polymorphisms.
 
-library(haplo.stats)
-library(IFP)
 data(apoe)
 
 n<-c(2000, 2000, 2000, 2000, 2000, 2000, 2000) #case sample size = 1000

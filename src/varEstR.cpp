@@ -31,7 +31,7 @@ extern "C"{
     for (i=0; i<nFp; i++) H0[i]=H0[i]-1;
     double **pMcResult = new double*[nSim];
     for (i=0; i<nSim; i++) pMcResult[i] = new double[nPoly];
-    int okA[nSim];
+    int *okA =new int [nSim];
     for(i=0; i<nSim; i++) okA[i]=1;
     for (i=0; i<nSim; i++){
 
@@ -142,7 +142,7 @@ extern "C"{
 	}
       }
 
-      double A[nFp*nFp];
+      double *A = new double [nFp*nFp];
       for (j=0; j<nFp; j++) for (k=0; k<nFp; k++) A[k+nFp*j]=diffA[k][j];
       int c2, ok;
       c2=1;
@@ -181,12 +181,12 @@ extern "C"{
       delete [] pMt;
       for (j=0; j<nPoly; j++) delete[] pMdt[j];
       delete [] pMdt;
-    
+      delete [] A;
 
     } //i nSim
 
-    double pMctVar[nPoly];
-    double pMctMean[nPoly];
+    double *pMctVar = new double [nPoly];
+    double *pMctMean = new double [nPoly];
     for(i=0; i<nPoly; i++){
       pMctMean[i]=0;
       pMctVar[i]=0;
@@ -213,6 +213,10 @@ extern "C"{
       delete [] pMcResult;
       for (j=0; j<nPoly; j++) delete[] pMd[j];
       delete [] pMd;
+
+      delete [] okA;
+      delete [] pMctVar;
+      delete [] pMctMean;
 
   } //void VarEst
 	  
