@@ -122,7 +122,7 @@ r[9,1]<-sum(temp1)-sum(temp2)
 r[9,2]<-sum(temp2)+1-prod(fd^2+2*fd*(1-fr-fd)+2*fd*fr+fr^2)-r[9,1]
 r[9,3]<-prod(fd^2*(1/8+7/8*(fd^2+2*fd*fr+2*fd*(1-fr-fd)+fr^2))+2*fd*(1-fr-fd)*(1/16+1/16*fd+7/8*(fd^2+2*fd*fr+2*fd*(1-fr-fd)+fr^2))+2*fd*fr*(1/16+1/16*(fr+fd)+7/8*(fd^2+2*fd*fr+2*fd*(1-fr-fd)+fr^2))+fr^2*(1/8*(fr+fd)+7/8*(fd^2+2*fd*fr+2*fd*(1-fr-fd)+fr^2)))
 
-list(pp,r)
+list(pp=pp,r=r)
 
 }
 

@@ -146,7 +146,7 @@ r[9,1]<-gnn+gnd*(1-e)+gdd*(1-e)^2
 r[9,2]<-gnd*e+gdd*2*e*(1-e)
 r[9,3]<-gdd*e^2
 
-list(gpp*e,r)
+list(ge=gpp*e,r=r)
 
 }
 

@@ -122,7 +122,7 @@ if(length(fd)>=2) for(i in 2:length(fd)) t2<-outer(t2,c(1/16*(1-fr[i]-fd[i])+1/1
 temp2<-t1*(1-t2)
 r[9,3]<-sum(temp1)-sum(temp2)
 
-list(pp,r)
+list(pp=pp,r=r)
 
 }
 

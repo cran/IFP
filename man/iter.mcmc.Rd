@@ -22,7 +22,21 @@
  \item{mcmcrg}{ parameter of the data collection stage (default=0.01)}
 }
 \value{
- a list of rejectionRate, result summary, Gelman-Rubin diagnostics (point est. & upper C.I.)
+ a list of rejectionRate, result summary, Gelman-Rubin diagnostics (point est. & upper C.I.) for output variables:
+ e[1]: proportion of environmental factor (E)
+ g[2]: proportion of genetic factor (G)
+ ge[3]: proportion of gene-environment interaction (G*E)
+ gg[4]: proportion of gene interactions (G*G)
+ gn[5]: number of recessive genes in G
+ ppe[6]: population proportion of interacting environment in G*E
+ ppg[7]: population proportion of interacting genetic factor in G*E
+ fd[8]: frequency of dominant genes in G
+ fdge[9]: frequency of dominant genes in G*E
+ gnge[10]: number of recessive genes in G*E
+ ppd[11]: population proportion of dominant genes in G*G
+ ppr[12]: population proportion of recessive genes in G*G
+ kd[13]: number of dominant genes in G*G
+ kr[14]: number of recessive genes in G*G
 }
 \examples{
 ### PLI=0.01.

@@ -1,13 +1,13 @@
-3f4a1f2011c780cf0e5b81eb5eb13366 *DESCRIPTION
+8545f781b904c367b14f384b1d8aabb3 *DESCRIPTION
 95aabf26107869f6a19f0cd3552ac9f4 *NAMESPACE
 f621bff0742e8c865bb269e75290cee4 *R/allele.freq.R
 13eef86608f23b5212a6a3a07b82863a *R/ddirichlet.MCMCpack.R
 b6d14a26d9649de68bf56e2766f056b7 *R/drgegggne.gm.R
 db9bb897cabbc4612711cb89bef2e629 *R/drgegne.gm.R
-70c17a92d2ded67121adb9fc6378f760 *R/drgen.gm.R
+274c3c59b0b88e2c152d06d08c63c6fe *R/drgen.gm.R
 190082bcc51069c3534d9f1b5f9f6f59 *R/drgene.gm.R
-968a327c9cb472c1ef4b32c3ba135a24 *R/drggn.gm.R
-272b6192c5755a46b9877026aecf5bb7 *R/drgn.gm.R
+fcff3a91f11cc3b62a072558626902bc *R/drggn.gm.R
+babdc00c1c53ce2ea44aa70eadb3711e *R/drgn.gm.R
 4d2300d29d500c58b9586a9d13563623 *R/error.rates.R
 af3c1f62fc4f439745bb7a4e5d2026b2 *R/hap.freq.R
 fb3e2c4eeebb326c1fbf3f8204b3b593 *R/iter.mcmc.R
@@ -31,7 +31,7 @@ a8f199f274c4f428d044cc3fe46c438b *R/zzz.R
 b7956547de252cc2c975bbea75b1bcb1 *man/drgn.gm.Rd
 e0a1c29bd48a018e054f6030f04ca7a1 *man/error.rates.Rd
 835b4d687d90226786fa95ae83006af2 *man/hap.freq.Rd
-bda3f8a6de8feda20fdb7f1f1ffcaf9e *man/iter.mcmc.Rd
+7d54e52898f220c776c66e999e57e516 *man/iter.mcmc.Rd
 2628954be0f66d8c994ed7c0135f97ee *man/lrt.Rd
 6e3f7799e1754932cb1bda75b543a162 *src/Makevars
 ba3e5811067132b7d0b458d12696368b *src/varEstR.cpp
