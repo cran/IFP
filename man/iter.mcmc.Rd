@@ -70,9 +70,8 @@ x[i]<-rbinom(1,n[i],sdata[darray[i]])
 }
 model<-c(1,1,0,0)
 
-iter.mcmc(ppt,2,15,2,1,1,darray,x,n,model)
-
-## This is a test. 
-## Use "iter.mcmc(ppt,2,2000,2,10,500,darray,x,n,model)" to get a proper result.
+## remove # from the following lines to test examples.
+#iter.mcmc(ppt,2,15,2,1,1,darray,x,n,model) # provide a running test
+#iter.mcmc(ppt,2,2000,2,10,500,darray,x,n,model) # provide a proper result
 
 }
