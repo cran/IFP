@@ -1,5 +1,5 @@
 Package: IFP
-Version: 0.2.0
+Version: 0.2.1
 Date: 2015-06-07
 Title: Identifying Functional Polymorphisms
 Author: Leeyoung Park
@@ -12,5 +12,5 @@ Suggests:
 URL: http://www.r-project.org
 NeedsCompilation: yes
 Repository: CRAN
-Packaged: 2015-06-11 12:57:00 UTC; x998ply
-Date/Publication: 2015-06-11 18:22:44
+Packaged: 2016-02-04 05:25:54 UTC; L
+Date/Publication: 2016-02-04 16:32:21

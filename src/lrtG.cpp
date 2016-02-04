@@ -23,7 +23,6 @@ extern "C"{
   double *LRT(int *nFpTestt, int *nPolyi, int *genoO, int *genoCO, int *nCont, int *nCat, double *lrr, double *df){
 
     int i, j, k, y;
-    int nSim=1000;
     int nFpTest = *nFpTestt, nPoly=*nPolyi, nCon=*nCont, nCa=*nCat;  
     int nCo = nCon/2;
 
@@ -215,12 +214,12 @@ extern "C"{
 	    int k=0;
 	    for(j=0; j<3; j++){
 	      if(nMMc[i][j]>0){
-		if(k<2 && pMMr[i][j]>(double)1/(double)nCa){
+		if(k<2 && pMMr[i][j]>=(double)1/(double)nCa){
 		  var = var*nMMc[i][j]*(1-pMMc[i][j]);
 		  k++;
 		}
 		if(pMMr[i][j]<(double)1/(double)nCa) pMMr[i][j]=(double)1/(double)nCa;
-		if(pMMr[i][j]<(double)5/(double)nCa) k=-3;
+		//if(pMMr[i][j]<(double)5/(double)nCa) k=-3;
 		lr += -2*((double)nMMc[i][j]*log(pMMr[i][j])-(double)nMMc[i][j]*log(pMMc[i][j]));
 		dft++;
 	      }

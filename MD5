@@ -1,5 +1,5 @@
-97bd5877e10e7f5d4717a581ff2cb9fc *DESCRIPTION
-539dc129699354ff86bcaf47d4c28dfe *NAMESPACE
+597bf531165988929d7576f81bead09d *DESCRIPTION
+93f9536887c283755741a2c22d19b4d4 *NAMESPACE
 8803c5841f7e8a12992f48482fcf2fbf *R/allele.freq.G.R
 f621bff0742e8c865bb269e75290cee4 *R/allele.freq.R
 13eef86608f23b5212a6a3a07b82863a *R/ddirichlet.MCMCpack.R
@@ -44,5 +44,5 @@ e0a1c29bd48a018e054f6030f04ca7a1 *man/error.rates.Rd
 f94750ad9046d10daa1df88a0f5ba2a9 *man/lrt.G.Rd
 2628954be0f66d8c994ed7c0135f97ee *man/lrt.Rd
 6e3f7799e1754932cb1bda75b543a162 *src/Makevars
-fa745cc93cf8d308ea6fefb751a012be *src/lrtG.cpp
+f6ae9d021cef9fb268dbfc1cfd468bb1 *src/lrtG.cpp
 ba3e5811067132b7d0b458d12696368b *src/varEstR.cpp
