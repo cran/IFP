@@ -6,7 +6,7 @@
 \description{
  This data set came from a re-sequenced data of APOE gene region in the Molecular Diversity and Epidemiology of Common Disease (MDECODE) database. Sixteen polymorphic sites were included. "apoe7" data contains the genetic data of seven single nucleotide polymorphisms with allele frequencies higher than 0.1 from the apoe data.
 }
-\usage{apoe}
+\usage{data(apoe)}
 \format{A matrix with 48 rows and 32 columns}
 \source{http://droog.gs.washington.edu/mdecode/}
 \references{

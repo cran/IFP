@@ -1,4 +1,4 @@
-597bf531165988929d7576f81bead09d *DESCRIPTION
+29adf565b4742d2330ab7c7bed9fe641 *DESCRIPTION
 93f9536887c283755741a2c22d19b4d4 *NAMESPACE
 8803c5841f7e8a12992f48482fcf2fbf *R/allele.freq.G.R
 f621bff0742e8c865bb269e75290cee4 *R/allele.freq.R
@@ -28,8 +28,8 @@ a8f199f274c4f428d044cc3fe46c438b *R/zzz.R
 47c5ac7d48499e7c14fddc6031365f10 *data/apoeG.RData
 df4752b2c45231866da60b06dde5acdd *man/allele.freq.G.Rd
 43ab71ae9124902518509420a1df944a *man/allele.freq.Rd
-37ba5227d7124646b7cdf036a2d18752 *man/apoe.G.Rd
-475f7f5dcc5407b0648c731858168f40 *man/apoe.Rd
+7ebd151c1e1927f6c6dc24aa7aeab0f2 *man/apoe.Rd
+35156a7e1cb5be6d4cefd0c6178a8cbf *man/apoeG.Rd
 348a3d2271c61a4d509bf7b5193f79e9 *man/drgegggne.gm.Rd
 2b035805d97bf4ec8a0922c395d35c1c *man/drgegne.gm.Rd
 2322624bd5a11ee622c5627d7418babd *man/drgen.gm.Rd
