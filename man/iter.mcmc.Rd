@@ -18,7 +18,7 @@
 }
  \item{x}{number of disease concordance of relative pairs}
  \item{n}{total number of relative pairs}
- \item{model}{an array, size of 4 (1: E component; 2: G component; 3: G*G component; 4: G*E component), indicating the existance of the causal component: 0: excluded; 1: included. }
+ \item{model}{an array, size of 4 (1: E component; 2: G component; 3: G*E component; 4: G*G component), indicating the existance of the causal component: 0: excluded; 1: included. }
  \item{mcmcrg}{ parameter of the data collection stage (default=0.01)}
 }
 \value{
@@ -38,9 +38,12 @@
  kd[13]: number of dominant genes in G*G
  kr[14]: number of recessive genes in G*G
 }
+\references{
+L. Park, J. Kim, A novel approach for identifying causal models of complex disease from family data, Genetics, 2015 Apr; 199, 1007-1016.
+}
 \examples{
 ### PLI=0.01.
-ppt<-0.01
+ppt<-0.01
 
 ### a simple causal model with G and E components
 

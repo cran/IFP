@@ -1,5 +1,5 @@
 Package: IFP
-Version: 0.2.3
+Version: 0.2.4
 Date: 2020-10-22
 Title: Identifying Functional Polymorphisms
 Author: Park L
@@ -12,5 +12,5 @@ Suggests:
 URL: https://www.r-project.org
 NeedsCompilation: yes
 Repository: CRAN
-Packaged: 2020-10-23 00:50:47 UTC; L
-Date/Publication: 2020-10-26 14:30:10 UTC
+Packaged: 2020-11-25 13:35:07 UTC; L
+Date/Publication: 2020-11-26 00:50:05 UTC

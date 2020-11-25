@@ -19,6 +19,9 @@
 \value{
  matrix of likelihood ratio test results. First n.fp rows indicate the model for each set of disease polymorphisms, and followed by p-values, -2 log(likelihood ratio) with corrections for variances, maximum likelihood ratio estimates, and likelihood.
 }
+\references{
+L. Park, Identifying disease polymorphisms from case-control genetic association data, Genetica, 2010 138 (11-12), 1147-1159.
+}
 \seealso{
  allele.freq
  hap.freq

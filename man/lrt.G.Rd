@@ -10,14 +10,17 @@
 \arguments{
  \item{n.fp}{number of disease SNPs for tests.}
  \item{genoT}{
-  matrix of control genotypes. Each row indicates a variant, and each column indicates a haplotype of an individual. Two alleles of 0 and 1 are available.
+  matrix of control genotypes. Each row indicates a variant, and each column indicates a haplotype of an individual. Two alleles of 0 and 1 are allowed.
  }
  \item{genoC}{
-  matrix of case genotypes. Each row indicates a variant, and each column indicates a haplotype of an individual. Two alleles of 0 and 1 are available.
+  matrix of case genotypes. Each row indicates a variant, and each column indicates a haplotype of an individual. Two alleles of 0 and 1 are allowed.
  }
 }
 \value{
  matrix of likelihood ratio test results. First row indicates the index, and following n.fp rows indicate the model for each set of disease polymorphisms, and followed by p-values, -2 log(likelihood ratio) with corrections for variances, and the degree of freedom.
+}
+\references{
+L. Park, J. Kim, Rare high-impact disease variants: properties and identification, Genetics Research, 2016 Mar; 98, e6.
 }
 \seealso{
  allele.freq.G
